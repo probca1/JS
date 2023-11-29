@@ -22,3 +22,4 @@ let brand("sptcode") //symbol=> mostly used in react/ identify or denote uniquel
 
 //typeof function:
 console.log(typeof age);
+console.log(typeof (age);
