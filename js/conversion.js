@@ -45,8 +45,8 @@
 
 //******************operators******** */
 
-let value=10
-let negativeVal=-value
+// let value=10
+// let negativeVal=-value
 
 /* 
  let add=5+5
