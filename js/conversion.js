@@ -19,10 +19,40 @@
 //if we assign num="" we get output false.
 //if we assign num="something" we get output true.
 
-let a=null
-console.log(a)
-console.log(typeof a)
+// let a=null
+// console.log(a)
+// console.log(typeof a)
 
 
 //boolean conversion
-let a=1;
+// let a=1;
+// let bln=Boolean(a)
+// console.log(bln)
+// console.log(typeof bln)
+
+// let a= " ";
+// let bln=Boolean(a)
+// console.log(bln)
+// console.log(typeof bln)
+
+// let a="SPT";
+// let bln=Boolean(a)
+// console.log(bln)
+// console.log(typeof bln)
+
+//1=> true; 0=> false
+// " " => false; "SPT"=> true
+
+//******************operators******** */
+
+let value=10
+let negativeVal=-value
+
+/* 
+ let add=5+5
+ let dif=5-5
+ console.log(5*5)
+ console.log(2**3)  // for power
+ let divide=5/2
+ let remainder= 5 % 2
+ */
