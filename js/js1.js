@@ -27,3 +27,6 @@ console.log(accountID);
 console.table([accountID,email,address,password]);
 
 //=> Note=> Do not prefer to use var keyword because os issue in block scope and functinal scope.
+
+document.write("This is JavaScript tutorial page");
+document.getElementById('wel').innerHTML="Welcome to JavaScript Tutorial";
