@@ -43,7 +43,7 @@
 //1=> true; 0=> false
 // " " => false; "SPT"=> true
 
-//******************operators******** */
+//********  OPERATORS **********operators******** */
 
 // let value=10
 // let negativeVal=-value
