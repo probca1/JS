@@ -56,3 +56,36 @@
  let divide=5/2
  let remainder= 5 % 2
  */
+// Concatenation: string+strings
+let str1 = "I love "
+let str2 = " Programming"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let preConter = 100
+pstConter++;
+console.log(preConter);
+let see=++preConter;
+console.log(see);
+let pstConter = 100
+pstConter++;
+console.log(pstConter);
+let check=pstConter++;
+console.log(check);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
