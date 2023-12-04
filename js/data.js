@@ -34,8 +34,8 @@ get help from MDN and ECMA.org.
 
 // const heros = ["shaktiman", "naagraj", "doga"];
 // let myObj = {
-//     name: "hitesh",
-//     age: 22,
+//     name: "SURENDRA",
+//     age: 45,
 // }
 
 // const myFunction = function(){

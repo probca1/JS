@@ -73,19 +73,42 @@ let str3 = str1 + str2
 // console.log(+true);
 // console.log(+"");
 
-let num1, num2, num3
-num1 = num2 = num3 = 2 + 2
-
-let preConter = 100
-pstConter++;
-console.log(preConter);
-let see=++preConter;
-console.log(see);
-let pstConter = 100
-pstConter++;
-console.log(pstConter);
-let check=pstConter++;
-console.log(check);
+/**** UNARY INCREMENT/DECREAMENT */
+// let preConter = 100
+// pstConter++;
+// console.log(preConter);
+// let see=++preConter;
+// console.log(see);
+// let pstConter = 100
+// pstConter++;
+// console.log(pstConter);
+// let check=pstConter++;
+// console.log(check);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+//assignment operators
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+
+// console.log("2" > 1);
+// console.log("02" > 1);
+
+/* DO NOT USE SUCH *****
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+*/
+// === 
+
+// console.log("2" === 2);
+
