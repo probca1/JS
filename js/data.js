@@ -42,7 +42,25 @@ const booksArr = ["C language", "DSA", "Scripting"];
 //     console.log("Hello world");
 // }
 
-console.log(booksArr);
+// console.log(booksArr);
 
+//+-+-+-+ MEMORIES +-+-+-+
+/* Two Types of Memories
+1. Stack (Primitive)
+2. Heap(Non-Primitive)*/
+// let bca="Whitefield"
+// let bbs=bca;
+// console.log(bbs,bca);
+// bbs=tu
+// console.log(bbs,bca);
+
+let user1={
+    id:"spt",
+    email:"spt@gmail.com"
+}
+let user2=user1
+user2.id="bca"
+console.log(user1.id)
+console.log(user2.id);
 
 
