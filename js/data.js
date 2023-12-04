@@ -32,7 +32,7 @@ get help from MDN and ECMA.org.
 // <<<<< Reference (Non primitive)>>>>>>
 // Array, Objects, Functions
 
-// const heros = ["shaktiman", "naagraj", "doga"];
+const booksArr = ["C language", "DSA", "Scripting"];
 // let myObj = {
 //     name: "SURENDRA",
 //     age: 45,
@@ -42,7 +42,7 @@ get help from MDN and ECMA.org.
 //     console.log("Hello world");
 // }
 
-// console.log(typeof anotherId);
+console.log(booksArr);
 
 
 
