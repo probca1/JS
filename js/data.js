@@ -32,7 +32,7 @@ get help from MDN and ECMA.org.
 // <<<<< Reference (Non primitive)>>>>>>
 // Array, Objects, Functions
 
-const booksArr = ["C language", "DSA", "Scripting"];
+// const booksArr = ["C language", "DSA", "Scripting"];
 // let myObj = {
 //     name: "SURENDRA",
 //     age: 45,
@@ -51,7 +51,7 @@ const booksArr = ["C language", "DSA", "Scripting"];
 // let bca="Whitefield"
 // let bbs=bca;
 // console.log(bbs,bca);
-// bbs=tu
+// bbs="tu"
 // console.log(bbs,bca);
 
 let user1={
@@ -59,7 +59,8 @@ let user1={
     email:"spt@gmail.com"
 }
 let user2=user1
-user2.id="bca"
+
+// user2.id="bca"
 console.log(user1.id)
 console.log(user2.id);
 
