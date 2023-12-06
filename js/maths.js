@@ -1,34 +1,59 @@
-const score = 400
-// console.log(score);
+/*JavaScript Numbers are Always 64-bit Floating Point:
+Integer Precision: (numbers without a period or exponent notation) are accurate up to 15 digits.
+Floating point arithmetic is not always 100% accurate.
+*/
+const num = 123
+// console.log(typeof num);
+// let num1=Number(num)
+// console.log(typeof num1);
 
-const balance = new Number(100)
-// console.log(balance);
+/* ==== JavaScript Numbers as Object ====
+** The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point. JavaScript number object follows IEEE standard to represent the floating-point numbers.
+** Syntax: let n=new Number(value); */
+const num2 = new Number(456)
+// console.log(num2);
+// console.log(typeof num2);
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+/* JavaScript Number Methods */
+// console.log(toString(num2));
+// console.log(typeof num2);
+//It returns the given number in the form of string.
+// console.log(num2.toString().length);
+// console.log(isFinite(num2));
+let n=456
+// console.log(isFinite(n));
+// console.log(parseFloat(n));
 
-const otherNumber = 123.8966
+let num3=4.8679
+// console.log(num3.toFixed(2));
+/* It returns the string that represents a number with exact digits after a decimal point */
 
-// console.log(otherNumber.toPrecision(4));
+const NS = 1000000
+// console.log(NS.toLocaleString());
+// console.log(NS.toLocaleString('en-IN'));
+//return number system as local
+// console.log(Number);
 
-const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
-
-// +++++++++++++ Maths +++++++++++++++++++++++++++++
+// +++++ Maths +++++
 
 // console.log(Math);
-// console.log(Math.abs(-4));
+// console.log(Math.abs(-45)); 
+//return values positive if negative
 // console.log(Math.round(4.6));
 // console.log(Math.ceil(4.2));
+//returns upper value
 // console.log(Math.floor(4.9));
+//returns lower value
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
-
-console.log(Math.random());
-console.log((Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.random());
+// console.log((Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
 const max = 20
-
+console.log(Math.random()*(max-min));
+console.log(Math.random()*(max-min+1));
+console.log(Math.floor(Math.random()*(max-min+1)));
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
